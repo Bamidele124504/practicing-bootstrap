@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.section1{
+   height: 100vh;
+   background-image: url(./images/college-students.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding-top: 300px;
+}
+
+
+
+.notification-badge{
+    display: flex;
+    border: 1px solid blue;
+    background-color: blue;
+}    
+
+
+.image-hover-effect:hover{
+    transform: scale(1.1);
+}
+
+.gallery-section:hover{
+    transform: rotateX(10deg);
+    opacity: 1.5;
+}
